@@ -75,8 +75,6 @@ searchBox.addEventListener("input", function () {
   });
 });
 
-// Initial load
 showShows(offset, offset + limit);
 
-// Load more button click event
 loadMoreButton.addEventListener("click", loadMore);
